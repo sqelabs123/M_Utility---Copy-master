@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Sqe123!@#"/>
+    <parameter name="userId" value="sqe.user"/>
+    <parameter name="url" value="https://nuruat.utilibill.com.au/nur/"/>
+    <classes>
+      <class name="BillRunFirst.other_Admin">
+        <methods>
+          <include name="setExtent"/>
+          <include name="endReport"/>
+          <include name="payment_batch"/>
+          <include name="tearDown"/>
+          <include name="Customer_Portal_Setting"/>
+          <include name="customer_add" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BillRunFirst.other_Admin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

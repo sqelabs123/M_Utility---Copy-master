@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 269.368 sec <<< FAILURE! - in TestSuite
+CustomerAndService(BillRunFirst.ElectrImportSetupTools)  Time elapsed: 60.341 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at BillRunFirst.ElectrImportSetupTools.CustomerAndService(ElectrImportSetupTools.java:67)
+
+AddCyclewithCustomer(BillRunFirst.ElectrImportSetupTools)  Time elapsed: 60.255 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at BillRunFirst.ElectrImportSetupTools.AddCyclewithCustomer(ElectrImportSetupTools.java:235)
+
+importSecurityDepositImport(BillRunFirst.ElectrImportSetupTools)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: ""
+	at BillRunFirst.ElectrImportSetupTools.importSecurityDepositImport(ElectrImportSetupTools.java:646)
+

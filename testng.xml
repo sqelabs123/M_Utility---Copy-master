@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BillRunSecond.UseCase"/>
+      <class name="reports_test.MultiBrowser"/>
+      <class name="Re_usable.buildNo"/>
+      <class name="BillRunFirst.test_Temp"/>
+      <class name="BillRunFirst.multiple_Customers"/>
+      <class name="BillRunFirst.ElectBillRun"/>
+      <class name="BillRunFirst.Admin_Features"/>
+      <class name="BillRunFirst.ElectAccountCreation_test"/>
+      <class name="reports.MultiBrowser"/>
+      <class name="BillRunFirst.other_Admin"/>
+      <class name="reports_test.Finalcial"/>
+      <class name="reports_test.Rating"/>
+      <class name="reports_test.Adjustment"/>
+      <class name="BillRunFirst.SetupAllocationucket_updateAndRe_OrderBucket"/>
+      <class name="Yellow_belt.invoice_setup_yellowBelt"/>
+      <class name="reports_test.Management"/>
+      <class name="ExtentReport.ExtentReportClass"/>
+      <class name="reports.Service"/>
+      <class name="reports_test.Service"/>
+      <class name="reports.Management"/>
+      <class name="reports.Finalcial"/>
+      <class name="BillRunFirst.New_reminder_functionality"/>
+      <class name="BillRunFirst.Communication_Outbox"/>
+      <class name="reports.Adjustment"/>
+      <class name="reports_test.Customer"/>
+      <class name="BillRunFirst.ElectCreateCustomer_test"/>
+      <class name="BillRunFirst.ElectPlanMangement"/>
+      <class name="BillRunFirst.Single_Customer_Rollback_Rebill"/>
+      <class name="reports.Rating"/>
+      <class name="BillRunFirst.ElectPayments"/>
+      <class name="reports_test.Meter_reading_taps"/>
+      <class name="reports.Meter_reading_taps"/>
+      <class name="BillRunFirst.others_ImportService"/>
+      <class name="Yellow_belt.ElectPayments_yellowBelt"/>
+      <class name="BillRunFirst.invoice_setup"/>
+      <class name="reports_test.Statement"/>
+      <class name="Yellow_belt.Reminder_yellowBelt"/>
+      <class name="BillRunFirst.ElectServiceManagement"/>
+      <class name="BillRunFirst.Payments_and_ManagingAllocations_Test"/>
+      <class name="Re_usable.temp"/>
+      <class name="reports.Customer"/>
+      <class name="BillRunFirst.ElectMeterReadsThroughFrontend"/>
+      <class name="reports.Statement"/>
+      <class name="BillRunFirst.ElectrImportSetupTools"/>
+      <class name="BillRunFirst.ElectAdminAccountCreation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

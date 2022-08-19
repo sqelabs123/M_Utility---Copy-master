@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="password" value="C123456789@c"/>
+  <parameter name="userId" value="nuruat146@yopmail.com"/>
+  <parameter name="url" value="https://nuruat.utilibill.com.au/nur/"/>
+  <test name="Test">
+    <parameter name="password" value="C123456789@c"/>
+    <parameter name="userId" value="nuruat146@yopmail.com"/>
+    <parameter name="url" value="https://nuruat.utilibill.com.au/nur/"/>
+    <classes>
+      <class name="BillRunFirst.ElectrImportSetupTools"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="password" value="C123456789@c"/>
+    <parameter name="userId" value="nuruat146@yopmail.com"/>
+    <parameter name="url" value="https://nuruat.utilibill.com.au/nur/"/>
+    <classes>
+      <class name="BillRunFirst.ElectrImportSetupTools">
+        <methods>
+          <include name="CustomerAndService"/>
+          <include name="Login"/>
+          <include name="AddCyclewithCustomer"/>
+          <include name="RatePlanImport"/>
+          <include name="importSecurityDepositImport"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- BillRunFirst.ElectrImportSetupTools -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
